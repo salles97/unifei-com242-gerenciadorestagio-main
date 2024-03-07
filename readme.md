@@ -16,13 +16,13 @@ O projeto tem como objetivo criar um ambiente para centralizar a coordenação d
 ## Instalação
 
 1. Clone o repositório: `git clone https://github.com/seu-usuario/nome-do-repositorio.git`
-2. Navegue até o diretório do projeto: `cd nome-do-repositorio`
-3. Execute o projeto utilizando sua IDE preferida ou utilizando o Maven: `mvn clean install`
+2. Navegue até o diretório do projeto: `cd unifei-com242-gerenciadorestagio-main`
+3. Com o Docker instalado, inicie os containers necessários: `docker compose up -d`
+4. Aguarde até que todos os containers estejam em execução.
+5. Se você estiver utilizando uma IDE:
+   - Abra o projeto na sua IDE preferida (por exemplo, IntelliJ IDEA, Eclipse).
+   - Importe o projeto como um projeto Maven.
+   - Execute a aplicação a partir do arquivo de inicialização principal (`GerenciadorEstagioApplication.java` ).
 
-## Contribuição
-
-Contribuições são bem-vindas! Se você deseja contribuir com este projeto, por favor, abra um pull request explicando as alterações propostas.
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
+6. Se você estiver usando o Maven diretamente:
+   - Execute o projeto utilizando sua IDE preferida ou utilizando o Maven: `mvn clean install`
